@@ -2,7 +2,7 @@
 
 Welcome to the Senior Software Engineer take-home assignment. We're very excited you've applied to be a part of our team! 
 
-This project provides a starter Laravel application that uses Blade templates, similar to our core application. The assignment is divided into three parts, each building on the previous one. You have 24 hours to complete as much as possible. Please don't fret if you feel you won't complete the assignment, the goal is simply to assess where you are at. Please do not feel you need to work on the project for more than a couple of hours at most. 
+This project provides a starter Laravel application that uses Blade templates, similar to our core application. The assignment is divided into three parts, each building on the previous one. You have 24 hours to work on this project. Please don't fret if you feel you won't complete the assignment, the goal is simply to assess where you are given a couple of hours to work on a coding problem. Please do not feel you need to work on the project for more than a couple of hours at most. 
 
 ## Table of Contents
 - [Overview](#overview)
@@ -26,7 +26,7 @@ This assignment evaluates your skills with Laravel, Blade, Livewire, Alpine.js, 
 1. **Clone the repository:**
     ```bash
     git clone <repo_url>
-    cd senior-engineer-takehome
+    cd EngineeringPractical
     ```
 
 2. **Install Composer dependencies:**
