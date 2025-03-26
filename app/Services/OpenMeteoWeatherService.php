@@ -2,10 +2,8 @@
 
 namespace App\Services;
 
-use App\DTOs\WeatherData;
 use Illuminate\Http\Client\Factory as HttpClient;
 use Illuminate\Http\Client\RequestException;
-use Illuminate\Http\JsonResponse;
 
 class OpenMeteoWeatherService
 {
@@ -16,9 +14,14 @@ class OpenMeteoWeatherService
     ) {}
 
     /**
-     * @inheritDoc
+     * Get weather forecast for given coordinates
+     *
+     * @param float $latitude
+     * @param float $longitude
+     * @return array
+     * @throws \Exception
      */
-    public function getWeatherForecast(float $latitude, float $longitude): JsonResponse
+    public function getWeatherForecast(float $latitude, float $longitude): array
     {
         try {
             $response = $this->http->get(self::API_URL, [

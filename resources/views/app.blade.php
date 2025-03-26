@@ -8,6 +8,7 @@
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     @vite('resources/css/app.css')
+    @livewireStyles
 </head>
 
 <body class="flex flex-col min-h-screen bg-gray-50">
@@ -57,6 +58,8 @@
             </div>
         </div>
     </footer>
+
+    @livewireScripts
 </body>
 
 </html>
